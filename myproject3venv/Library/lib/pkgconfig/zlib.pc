@@ -1,0 +1,13 @@
+prefix=C:/sales-analytics-dashboard/myproject3venv/Library
+exec_prefix=C:/sales-analytics-dashboard/myproject3venv/Library
+libdir=C:/sales-analytics-dashboard/myproject3venv/Library/lib
+sharedlibdir=C:/sales-analytics-dashboard/myproject3venv/Library/lib
+includedir=C:/sales-analytics-dashboard/myproject3venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3.1
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
